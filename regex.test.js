@@ -33,7 +33,7 @@ let result5 = regex5.test(s);
 which end with io (example@example.io) */
 
 function ioEmail(email){
-let regex1 = /^\w+@+\w+.io/;    
+let regex1 = /^\w+@+\w+.io/;     
 let result1 = regex1.test(email);
 
 
